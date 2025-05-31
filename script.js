@@ -6,8 +6,8 @@ const projects = [
         description: 'A comprehensive dashboard for e-commerce businesses with analytics, inventory management, and customer insights.',
         image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         tags: ['React', 'TypeScript', 'Tailwind'],
-        demoUrl: '#',
-        codeUrl: '#'
+        demoUrl: 'https://codemasterashish.github.io/code_alpha_Ecommerce_site_task_1/',
+        codeUrl: 'https://github.com/CodeMasterAshish/code_alpha_Ecommerce_site_task_1'
     },
     {
         id: 2,
@@ -20,12 +20,12 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Weather App',
-        description: 'A sleek weather application that provides real-time weather data and forecasts for locations worldwide.',
+        title: 'Simons-Says Game',
+        description: 'Simon Says is a popular children's game where one player, designated as "Simon", gives instructions to the other players, and players only follow the instructions when "Simon says" is included.',
         image: 'https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         tags: ['JavaScript', 'API', 'CSS'],
-        demoUrl: '#',
-        codeUrl: '#'
+        demoUrl: 'https://codemasterashish.github.io/Simons-Says/',
+        codeUrl: 'https://github.com/CodeMasterAshish/Simons-Says'
     },
     {
         id: 4,
@@ -96,7 +96,7 @@ function setTheme(theme) {
 }
 
 // Initialize theme
-const savedTheme = localStorage.getItem('theme') || 
+const savedTheme = localStorage.getItem('theme') ||
     (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 setTheme(savedTheme);
 
@@ -129,8 +129,8 @@ scrollDownButton.addEventListener('click', () => {
 
 // Project filtering
 function renderProjects(filter = 'all') {
-    const filteredProjects = filter === 'all' 
-        ? projects 
+    const filteredProjects = filter === 'all'
+        ? projects
         : projects.filter(project => project.tags.includes(filter));
 
     projectsGrid.innerHTML = filteredProjects.map(project => `
@@ -192,7 +192,7 @@ contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const submitButton = contactForm.querySelector('button[type="submit"]');
     const originalButtonText = submitButton.innerHTML;
-    
+
     // Show loading state
     submitButton.innerHTML = `
         <svg class="animate-spin -ml-1 mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -227,11 +227,11 @@ contactForm.addEventListener('submit', async (e) => {
 function highlightActiveSection() {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-links a');
-    
+
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
         const id = section.getAttribute('id');
-        
+
         if (rect.top <= 100 && rect.bottom >= 100) {
             navLinks.forEach(link => {
                 link.classList.remove('active');
