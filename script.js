@@ -9,33 +9,33 @@ const projects = [
         demoUrl: 'https://codemasterashish.github.io/code_alpha_Ecommerce_site_task_1/',
         codeUrl: 'https://github.com/CodeMasterAshish/code_alpha_Ecommerce_site_task_1'
     },
-    {
-        id: 2,
-        title: 'Travel Blog Platform',
-        description: 'A modern blog platform designed specifically for travel enthusiasts to share their adventures and tips.',
-        image: 'https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['React', 'Node.js', 'MongoDB'],
-        demoUrl: '#',
-        codeUrl: '#'
-    },
+    // {
+    //     id: 2,
+    //     title: 'Travel Blog Platform',
+    //     description: 'A modern blog platform designed specifically for travel enthusiasts to share their adventures and tips.',
+    //     image: 'https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    //     tags: ['React', 'Node.js', 'MongoDB'],
+    //     demoUrl: '#',
+    //     codeUrl: '#'
+    // },
     {
         id: 3,
         title: 'Simons-Says Game',
-        description: 'Simon Says is a popular children's game where one player, designated as "Simon", gives instructions to the other players, and players only follow the instructions when "Simon says" is included.',
+        description: "Simons-Says is a game where pressing unknown numbers",
         image: 'https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         tags: ['JavaScript', 'API', 'CSS'],
         demoUrl: 'https://codemasterashish.github.io/Simons-Says/',
         codeUrl: 'https://github.com/CodeMasterAshish/Simons-Says'
     },
-    {
-        id: 4,
-        title: 'Task Management App',
-        description: 'A productivity tool to help users organize their tasks, set priorities, and track progress.',
-        image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['React', 'Redux', 'Firebase'],
-        demoUrl: '#',
-        codeUrl: '#'
-    },
+    // {
+    //     id: 4,
+    //     title: 'Task Management App',
+    //     description: 'A productivity tool to help users organize their tasks, set priorities, and track progress.',
+    //     image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    //     tags: ['React', 'Redux', 'Firebase'],
+    //     demoUrl: '#',
+    //     codeUrl: '#'
+    // },
     {
         id: 5,
         title: 'Fitness Tracker',
