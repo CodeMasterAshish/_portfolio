@@ -38,9 +38,9 @@ const projects = [
     // },
     {
         id: 5,
-        title: 'Fitness Tracker',
-        description: 'An application that helps users track their workouts, nutrition, and fitness goals.',
-        image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        title: 'Dev Chat Website',
+        description: 'Dev Chat Website where devlopers meet and advice to their junior developers.',
+        image: '',
         tags: ['TypeScript', 'React Native', 'GraphQL'],
         demoUrl: '#',
         codeUrl: '#'
