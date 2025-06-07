@@ -40,7 +40,7 @@ const projects = [
         id: 5,
         title: 'Dev Chat Website',
         description: 'Dev Chat Website where devlopers meet and advice to their junior developers.',
-        image: '',
+        image: 'Screenshot 2025-06-07 230029.png',
         tags: ['TypeScript', 'React Native', 'GraphQL'],
         demoUrl: '#',
         codeUrl: '#'
