@@ -40,10 +40,10 @@ const projects = [
         id: 5,
         title: 'Dev Chat Website',
         description: 'Dev Chat Website where devlopers meet and advice to their junior developers.',
-        image: 'Screenshot 2025-06-07 230029.png',
-        tags: ['TypeScript', 'React Native', 'GraphQL'],
-        demoUrl: '#',
-        codeUrl: '#'
+        image: 'https://www.google.com/search?sca_esv=c0478c77a7b2bf7c&sxsrf=AE3TifNiVaZc-WgsdnDQCxbWGaZpTKArMg:1749318098732&q=devchat&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeqDdErwP5rACeJAty2zADJgYJpo1blvMpITBRgbnARM6y8KwxzRsF24u6g33NutBQiYU4YYg2NVY9oewD6JMcYBKargMsgCi4cL08u6SynE_cy-05ouuwN6iQirrv5M9n70PIysVTl7Iu_TGD_Sddr0p2qNgSo3BfXOJ_vI1AD3GRn5E_w&sa=X&ved=2ahUKEwiG8v7e7d-NAxWfzjgGHdtwFS4QtKgLegQIFBAB&biw=1536&bih=730&dpr=1.25#vhid=C_O-X1TgDcTtiM&vssid=mosaic',
+        tags: ['HTML', 'Css', 'Javascript', 'React'],
+        demoUrl: 'https://codemasterashish.github.io/Devchat/',
+        codeUrl: 'https://github.com/CodeMasterAshish/Devchat'
     },
     {
         id: 6,
